@@ -1,25 +1,25 @@
 import React from 'react';
 import { useState } from "react";
 
-/*
-export function SubjectList(props)
+// subject list will be used as reusable items list
+export function NavigationItem(props)
 {
-    let subjects = props.data;
+    let items = props.data;
 
     return (
         <div>
         <ol>
         {
-            subjects.map((subject) => {
-            return <li>{subject.code} - {subject.description}</li>
+            items.map((item) => {
+            return <li>{item.name} - {item.url}</li>
             })
         }
         </ol>
   	  </div>
     );
 }
-*/
 
+/*
 export function SubjectList(props){
     const subjectlist = props.list;
     const [subjects, setSubjects] = useState(subjectlist);
@@ -47,4 +47,5 @@ export function SubjectList(props){
         </>
     );
 }
-export default SubjectList
+*/
+export default NavigationItem

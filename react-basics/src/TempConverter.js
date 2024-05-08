@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import TempInputField from "./TempInputField";
+import TempInputField from "./TempInputField.js";
 
 // utility functions to convert celsius to fahrenheit and vv
 const toCelsius = (f) => {
