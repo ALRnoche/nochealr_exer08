@@ -4,6 +4,11 @@ Section: CMSC 100 UV1L
 
 Code Description: (Exercise 08 & 09)
 
+To prepare:
+1.) In the terminal, type "cd components"
+2.) Type "npm install react-scripts"
+3.) Once package is installed, go to "components" folder in terminal, then type "npm start"
+
 App.js: 
  * Imports App.css, ./NavBar, & ./ItemsList
  * Abstraction (in OOP)
