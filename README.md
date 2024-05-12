@@ -2,7 +2,7 @@ Created by: André Luis R. Noche
 
 Section: CMSC 100 UV1L
 
-Code Description:
+Code Description: (Exercise 08 & 09)
 
 App.js: 
  * Imports App.css, ./NavBar, & ./ItemsList
@@ -28,7 +28,7 @@ NavBar.js:
  * Encapsulation (in OOP)
  * Gives function to select tabs (Appliances, Groceries, etc.)
 
-ShoppingCart.js
+Cart.js
  * inherits 'useState' function from react
  * Encapsulation (in OOP)
  * Gives function to add and delete cart items
