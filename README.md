@@ -11,7 +11,7 @@ App.js:
 
 App.css:
  * Serves as the flesh of App.js. It beautifies the website.
- * It modifies components such as the navigation bar items, appliances items, and shopping cart items
+ * It modifies components such as the navigation bar items, appliances items, and cart items
  * It designs the color theme of the website
  * Inherits functions from react, ./NavBar, & ./ItemsList
 
@@ -19,7 +19,7 @@ ItemsList.js:
  * Contains functions that properly reuses the called data (const Appliances)
  * Encapsulation (in OOP)
  * Add to cart & delete buttons
- * Inherits functions from ShoppingCart.js
+ * Inherits functions from Cart.js
  * Inherits App.css
 
 NavBar.js:
