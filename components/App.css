@@ -1,0 +1,125 @@
+/* Put all elements of App in flex container */
+.App
+{
+  flex-direction: column;
+  display: flex;
+}
+
+/* all Header elements */
+.Header
+{
+  display: flex;
+  background-color: #131921;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 20px;
+
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content:space-between;
+}
+
+/* contain APPLIANCES, GROCERIES, ACCESSORIES, & APPAREL tabs in flex container */
+.boxes 
+{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+/* Remove default border style of tabs */
+.Class
+{
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+
+  display: flex;
+  padding: 10px;
+  background-color: #131921;
+  border-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Change tabs design when selected */
+.Class.selected
+{
+  background-color: #FFA41C;
+  color: black;
+}
+
+/* Color bg of body as grey and set default font of all targets as Arial */
+.Body 
+{
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  background-color: #D9D9D9;
+  padding: 10px;
+  flex-direction: column; 
+}
+
+/* Contain all item elements within flex box */
+.itms
+{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+
+  font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* set size image of items */
+.img 
+{
+  width: 180px;
+  height: 180px;
+}
+
+/* Contain shopping cart panel in flex box */
+.cart 
+{
+  background-color: white;
+  padding: 30px;
+}
+ 
+/* Contain chosen items in flex box then edit design */
+.cart_itms 
+{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  align-items: center;
+  border-width: 2px;
+  border-style:groove;
+  width: 200px;
+  gap: 20px;
+}
+
+/* change buttons to blue and make it round */
+.btns 
+{
+  color: white;
+  font-family: 'Trebuchet MS', sans-serif;
+
+  display: flex;
+  background-color: #0053A0;
+  border-radius: 30px;
+  border-color: #3EA4FF;
+  padding: 15px;
+}
+
+/* resize trash bin icon to 15px */
+.del_btn 
+{
+  width: 15px;
+  height: 15px;
+}
